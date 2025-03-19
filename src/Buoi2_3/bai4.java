@@ -43,13 +43,13 @@ public class bai4 {
 
 			// Kiểm tra loại tam giác
 			if (isEquilateralTriangle(a, b, c)) {
-				System.out.println("Đây là một tam giác đều");
+				System.out.println("Đây là một tam giác đều.");
 			} else if (isRightTriangle(a, b, c)) {
-				System.out.println("Đây là một tam giác vuông");
+				System.out.println("Đây là một tam giác vuông.");
 			} else if (isIsoscelesRightTriangle(a, b, c)) {
-				System.out.println("Đây là một tam giác vuông cân");
+				System.out.println("Đây là một tam giác vuông cân.");
 			} else {
-				System.out.println("Đây là một tam giác thường");
+				System.out.println("Đây là một tam giác thường.");
 			}
 		}
 
